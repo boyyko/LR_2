@@ -10,7 +10,7 @@ cache_tester::cache_tester(int Lmin, int Lmax)
 {
   int cur_size = 0;
   cur_size = _Lmin/2;
-  while (cur_size < 3 * _Lmax/2)
+  while (cur_size < 3/2 * _Lmax)
   {
     _sizes_array.push_back(cur_size * 256);
     cur_size*=2;
@@ -156,6 +156,5 @@ int cache_tester::random_test(int sizes_array)
 int cache_tester::get_random(int min, int max)
 {
   int rand = min + random() % (max - min +1);
-
   return rand;
 }
