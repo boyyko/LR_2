@@ -74,7 +74,7 @@ void cache_tester::tests() {
   }
 
   std::cout << "investigation:" << std::endl
-       << "travel_variant: random" << std::endl << "experiments:" << std::endl;
+            << "travel_variant: random" << std::endl << "experiments:" << std::endl;
   for (size_t i = 0; i < _sizes_array.size(); ++i)
   {
     std::cout << "number: " << i + 1 << std::endl
@@ -151,7 +151,7 @@ int cache_tester::random_test(int sizes_array)
   free_array(array);
   time/=1000;
 
-  return 0;
+  return time;
 }
 int cache_tester::get_random(int min, int max)
 {
