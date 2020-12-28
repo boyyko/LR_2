@@ -140,42 +140,42 @@ cache_size['3'] = 8 mb;
 1: input data:
 1:   buffer_size: 64 KiB
 1: results:
-1:   duration: 3mcs
+1:   duration: 1mcs
 1: number: 2
 1: input data:
 1:   buffer_size: 128 KiB
 1: results:
-1:   duration: 5mcs
+1:   duration: 3mcs
 1: number: 3
 1: input data:
 1:   buffer_size: 256 KiB
 1: results:
-1:   duration: 13mcs
+1:   duration: 7mcs
 1: number: 4
 1: input data:
 1:   buffer_size: 512 KiB
 1: results:
-1:   duration: 24mcs
+1:   duration: 19mcs
 1: number: 5
 1: input data:
 1:   buffer_size: 1024 KiB
 1: results:
-1:   duration: 42mcs
+1:   duration: 39mcs
 1: number: 6
 1: input data:
 1:   buffer_size: 2048 KiB
 1: results:
-1:   duration: 175mcs
+1:   duration: 111mcs
 1: number: 7
 1: input data:
 1:   buffer_size: 4096 KiB
 1: results:
-1:   duration: 352mcs
+1:   duration: 205mcs
 1: number: 8
 1: input data:
 1:   buffer_size: 9216 KiB
 1: results:
-1:   duration: 967mcs
+1:   duration: 674mcs
 1: investigation:
 1: travel_variant: reverse
 1: experiments:
@@ -183,42 +183,42 @@ cache_size['3'] = 8 mb;
 1: input data:
 1:   buffer_size: 64 KiB
 1: results:
-1:   duration: 4 mcs
+1:   duration: 2 mcs
 1: number: 2
 1: input data:
 1:   buffer_size: 128 KiB
 1: results:
-1:   duration: 9 mcs
+1:   duration: 5 mcs
 1: number: 3
 1: input data:
 1:   buffer_size: 256 KiB
 1: results:
-1:   duration: 12 mcs
+1:   duration: 9 mcs
 1: number: 4
 1: input data:
 1:   buffer_size: 512 KiB
 1: results:
-1:   duration: 19 mcs
+1:   duration: 16 mcs
 1: number: 5
 1: input data:
 1:   buffer_size: 1024 KiB
 1: results:
-1:   duration: 36 mcs
+1:   duration: 34 mcs
 1: number: 6
 1: input data:
 1:   buffer_size: 2048 KiB
 1: results:
-1:   duration: 87 mcs
+1:   duration: 70 mcs
 1: number: 7
 1: input data:
 1:   buffer_size: 4096 KiB
 1: results:
-1:   duration: 395 mcs
+1:   duration: 189 mcs
 1: number: 8
 1: input data:
 1:   buffer_size: 9216 KiB
 1: results:
-1:   duration: 1219 mcs
+1:   duration: 628 mcs
 1: investigation:
 1: travel_variant: random
 1: experiments:
@@ -226,43 +226,42 @@ cache_size['3'] = 8 mb;
 1: input data:
 1:   buffer_size: 64 KiB
 1: results:
-1:   duration: 0mcs
+1:   duration: 18mcs
 1: number: 2
 1: input data:
 1:   buffer_size: 128 KiB
 1: results:
-1:   duration: 0mcs
+1:   duration: 33mcs
 1: number: 3
 1: input data:
 1:   buffer_size: 256 KiB
 1: results:
-1:   duration: 0mcs
+1:   duration: 69mcs
 1: number: 4
 1: input data:
 1:   buffer_size: 512 KiB
 1: results:
-1:   duration: 0mcs
+1:   duration: 145mcs
 1: number: 5
 1: input data:
 1:   buffer_size: 1024 KiB
 1: results:
-1:   duration: 0mcs
+1:   duration: 316mcs
 1: number: 6
 1: input data:
 1:   buffer_size: 2048 KiB
 1: results:
-1:   duration: 0mcs
+1:   duration: 678mcs
 1: number: 7
 1: input data:
 1:   buffer_size: 4096 KiB
 1: results:
-1:   duration: 0mcs
+1:   duration: 2407mcs
 1: number: 8
 1: input data:
 1:   buffer_size: 9216 KiB
 1: results:
-1:   duration: 0mcs
-
+1:   duration: 9512mcs
 
 ```
 
@@ -272,7 +271,7 @@ cache_size['3'] = 8 mb;
 ### reverse
 ![Cache](./images/reverse.jpg)
 ### random
-![Cache](./images/random.jpg)
+![Cache](./images/rand.jpg)
 
 
 
