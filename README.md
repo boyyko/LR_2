@@ -133,136 +133,159 @@ cache_size['3'] = 8 mb;
 ### Результаты
 
 ```yaml
-1: investigation:
-1:   travel_variant: direct
-1:   experiments:
-1: number: 1
-1: input data:
-1:   buffer_size: 64 KiB
-1: results:
-1:   duration: 1mcs
-1: number: 2
-1: input data:
-1:   buffer_size: 128 KiB
-1: results:
-1:   duration: 3mcs
-1: number: 3
-1: input data:
-1:   buffer_size: 256 KiB
-1: results:
-1:   duration: 7mcs
-1: number: 4
-1: input data:
-1:   buffer_size: 512 KiB
-1: results:
-1:   duration: 19mcs
-1: number: 5
-1: input data:
-1:   buffer_size: 1024 KiB
-1: results:
-1:   duration: 39mcs
-1: number: 6
-1: input data:
-1:   buffer_size: 2048 KiB
-1: results:
-1:   duration: 111mcs
-1: number: 7
-1: input data:
-1:   buffer_size: 4096 KiB
-1: results:
-1:   duration: 205mcs
-1: number: 8
-1: input data:
-1:   buffer_size: 9216 KiB
-1: results:
-1:   duration: 674mcs
-1: investigation:
-1: travel_variant: reverse
-1: experiments:
-1: number: 1
-1: input data:
-1:   buffer_size: 64 KiB
-1: results:
-1:   duration: 2 mcs
-1: number: 2
-1: input data:
-1:   buffer_size: 128 KiB
-1: results:
-1:   duration: 5 mcs
-1: number: 3
-1: input data:
-1:   buffer_size: 256 KiB
-1: results:
-1:   duration: 9 mcs
-1: number: 4
-1: input data:
-1:   buffer_size: 512 KiB
-1: results:
-1:   duration: 16 mcs
-1: number: 5
-1: input data:
-1:   buffer_size: 1024 KiB
-1: results:
-1:   duration: 34 mcs
-1: number: 6
-1: input data:
-1:   buffer_size: 2048 KiB
-1: results:
-1:   duration: 70 mcs
-1: number: 7
-1: input data:
-1:   buffer_size: 4096 KiB
-1: results:
-1:   duration: 189 mcs
-1: number: 8
-1: input data:
-1:   buffer_size: 9216 KiB
-1: results:
-1:   duration: 628 mcs
-1: investigation:
-1: travel_variant: random
-1: experiments:
-1: number: 1
-1: input data:
-1:   buffer_size: 64 KiB
-1: results:
-1:   duration: 18mcs
-1: number: 2
-1: input data:
-1:   buffer_size: 128 KiB
-1: results:
-1:   duration: 33mcs
-1: number: 3
-1: input data:
-1:   buffer_size: 256 KiB
-1: results:
-1:   duration: 69mcs
-1: number: 4
-1: input data:
-1:   buffer_size: 512 KiB
-1: results:
-1:   duration: 145mcs
-1: number: 5
-1: input data:
-1:   buffer_size: 1024 KiB
-1: results:
-1:   duration: 316mcs
-1: number: 6
-1: input data:
-1:   buffer_size: 2048 KiB
-1: results:
-1:   duration: 678mcs
-1: number: 7
-1: input data:
-1:   buffer_size: 4096 KiB
-1: results:
-1:   duration: 2407mcs
-1: number: 8
-1: input data:
-1:   buffer_size: 9216 KiB
-1: results:
-1:   duration: 9512mcs
-
+ investigation:
+   travel_variant: direct
+   experiments:
+ - experiment:
+     number: 1
+     input data:
+       buffer_size: 64 KiB
+     results:
+       duration: 3mcs
+ - experiment:
+     number: 2
+     input data:
+       buffer_size: 128 KiB
+     results:
+       duration: 6mcs
+ - experiment:
+     number: 3
+     input data:
+       buffer_size: 256 KiB
+     results:
+       duration: 12mcs
+ - experiment:
+     number: 4
+     input data:
+       buffer_size: 512 KiB
+     results:
+       duration: 23mcs
+ - experiment:
+     number: 5
+     input data:
+       buffer_size: 1024 KiB
+     results:
+       duration: 47mcs
+ - experiment:
+     number: 6
+     input data:
+       buffer_size: 2048 KiB
+     results:
+       duration: 100mcs
+ - experiment:
+     number: 7
+     input data:
+       buffer_size: 4096 KiB
+     results:
+       duration: 222mcs
+ - experiment:
+     number: 8
+     input data:
+       buffer_size: 9216 KiB
+     results:
+       duration: 664mcs
+ investigation:
+   travel_variant: reverse
+   experiments:
+ - experiment:
+     number: 1
+     input data:
+       buffer_size: 64 KiB
+     results:
+       duration: 2 mcs
+ - experiment:
+     number: 2
+     input data:
+       buffer_size: 128 KiB
+     results:
+       duration: 5 mcs
+ - experiment:
+     number: 3
+     input data:
+       buffer_size: 256 KiB
+     results:
+       duration: 9 mcs
+ - experiment:
+     number: 4
+     input data:
+       buffer_size: 512 KiB
+     results:
+       duration: 20 mcs
+ - experiment:
+     number: 5
+     input data:
+       buffer_size: 1024 KiB
+     results:
+       duration: 42 mcs
+ - experiment:
+     number: 6
+     input data:
+       buffer_size: 2048 KiB
+     results:
+       duration: 87 mcs
+ - experiment:
+     number: 7
+     input data:
+       buffer_size: 4096 KiB
+     results:
+       duration: 217 mcs
+ - experiment:
+     number: 8
+     input data:
+       buffer_size: 9216 KiB
+     results:
+       duration: 754 mcs
+ investigation:
+   travel_variant: random
+   experiments:
+ - experiment:
+     number: 1
+     input data:
+       buffer_size: 64 KiB
+     results:
+       duration: 18mcs
+ - experiment:
+     number: 2
+     input data:
+       buffer_size: 128 KiB
+     results:
+       duration: 35mcs
+ - experiment:
+     number: 3
+     input data:
+       buffer_size: 256 KiB
+     results:
+       duration: 75mcs
+ - experiment:
+     number: 4
+     input data:
+       buffer_size: 512 KiB
+     results:
+       duration: 156mcs
+ - experiment:
+     number: 5
+     input data:
+       buffer_size: 1024 KiB
+     results:
+       duration: 323mcs
+ - experiment:
+     number: 6
+     input data:
+       buffer_size: 2048 KiB
+     results:
+       duration: 669mcs
+ - experiment:
+     number: 7
+     input data:
+       buffer_size: 4096 KiB
+     results:
+       duration: 1741mcs
+ - experiment:
+     number: 8
+     input data:
+       buffer_size: 9216 KiB
+     results:
+       duration: 9468mcs
 ```
 
 ### Отчёт:
