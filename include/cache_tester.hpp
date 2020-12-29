@@ -1,3 +1,4 @@
+//Copyright 2020 Your Name <your_email>
 
 #ifndef INCLUDE_CACHE_TESTER_HPP_
 #define INCLUDE_CACHE_TESTER_HPP_
