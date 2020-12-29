@@ -1,4 +1,3 @@
-// Copyright 2020 Your Name <your_email>
 
 #include <gtest/gtest.h>
 #include <chrono>
@@ -7,6 +6,7 @@
 TEST(Example, EmptyTest) {
 
   cache_tester test(128,6144);
+  test.count_experiments();
   test.tests();
     EXPECT_TRUE(true);
 }
